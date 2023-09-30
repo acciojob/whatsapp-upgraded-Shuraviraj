@@ -13,6 +13,11 @@ public class Message {
         this.timestamp = timestamp;
     }
 
+    public Message( String content, Date timestamp) {
+        this.content = content;
+        this.timestamp = timestamp;
+    }
+
     public Message() {
     }
 
