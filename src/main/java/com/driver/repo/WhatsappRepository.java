@@ -156,7 +156,7 @@ public class WhatsappRepository {
         User userFromDb = WhatsappValidationUtils.doesUserExist(user.getMobile(), users);
 
         var usersInGroup = groupUsers.get(groupFromDb);
-        if (!usersInGroup.contains(approverFromDb) || !usersInGroup.contains(userFromDb) ) {
+        if (!usersInGroup.contains(userFromDb) ) {
             throw new DataNotFoundException("User is not a participant");
         }
 
