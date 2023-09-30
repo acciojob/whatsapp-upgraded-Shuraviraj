@@ -12,11 +12,7 @@ public class Message {
         this.content = content;
         this.timestamp = timestamp;
     }
-    public Message(int id) {
-        this.id = id;
-    }
-
-    public Message( String content, Date timestamp) {
+        public Message( String content, Date timestamp) {
         this.content = content;
         this.timestamp = timestamp;
     }
