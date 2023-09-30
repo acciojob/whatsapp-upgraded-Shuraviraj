@@ -18,6 +18,10 @@ public class Message {
         this.timestamp = timestamp;
     }
 
+    public Message( String content) {
+        this.content = content;
+    }
+
     public Message() {
     }
 
